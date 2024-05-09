@@ -1,0 +1,61 @@
+body{
+    background-color: #b5b6ae;
+}
+
+.divp{
+    position: relative;
+    left: 4%;
+    margin-top: 3%;
+    width: 1250px;
+    
+}
+
+.vinilo {
+  position: relative;
+  left: 45%;
+  width: 10%;
+  bottom: 20px;
+}
+
+.h1 {
+  position: relative;
+  left: 4px;
+  bottom: 28px;
+  text-align: center;
+  font-size: 25px;
+  font-family: cursive;
+}
+
+.p {
+  position: relative;
+  bottom: 35px;
+  text-align: center;
+  font-size: 20px;
+  font-family: monospace;
+}
+
+.p2 {
+  position: relative;
+  bottom: 35px;
+  text-align: center;
+  font-size: 18px;
+  font-family: monospace;
+}
+
+.button {
+  position: relative;
+  left: 20%;
+  bottom: 25px;
+  margin-left: 5px;
+  border: none;
+  border-radius: 5px;
+  border: 1px solid;
+  padding: auto;
+  background-color: rgb(239, 239, 248);
+  font-size: 17px;
+}
+
+.hr{
+    width: 650px;
+    
+}
