@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bannerHeader{
+    height: 70rem;
+    background-image: url(../css/img/photo-1542107362-914757b935e1.avif);
+    opacity: 0.9;
+    background-position: center;
+    
+}
+
+.imgBanner{
+    margin: 2em;
+}
+
+.buttonSectionHeader{
+    position: relative;
+    bottom: 10rem;
+    display: flex;
+    justify-content: center;
+    margin-right: 5rem;
+}
+
+.buttonHeader{
+    width: 12rem;
+    height: 5rem;
+    margin: 1rem;
+    border: none;
+    border-radius: 10px;
+    background-color: gray;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+
+}
+
+.sectionTextBanner{
+    width: 95rem;
+    margin-left: 2rem;
+    position: relative;
+
+}
+
+.h1Banner{
+    color: #000000;
+    font-family: "Montserrat", sans-serif;
+    font-size: 8rem;
+    margin-bottom: 5rem;
+}
+
+.uH2Banner{
+    color: #000000;
+    font-family: "Montserrat", sans-serif;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+
+}
+
+.h2Banner{
+    color: #000000;
+    font-family: "Montserrat", sans-serif;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+
+}
+
+.pBanner{
+    color: #b6b6a6;
+    width: 56rem;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+
+
+
+  
