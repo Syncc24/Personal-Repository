@@ -1,80 +1,185 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #2c2c2c;
 }
 
-.bannerHeader{
-    height: 70rem;
-    background-image: url(../css/img/photo-1542107362-914757b935e1.avif);
-    opacity: 0.9;
-    background-position: center;
-    
+header {
+  width: 100%;
+  height: 75rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.imgBanner{
-    margin: 2em;
+.containerHeader {
+  display: flex;
 }
 
-.buttonSectionHeader{
-    position: relative;
-    bottom: 10rem;
-    display: flex;
-    justify-content: center;
-    margin-right: 5rem;
+.iconHeader {
+  margin: 2.5rem 3rem;
 }
 
-.buttonHeader{
-    width: 12rem;
-    height: 5rem;
-    margin: 1rem;
-    border: none;
-    border-radius: 10px;
-    background-color: gray;
-    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.4);
-    cursor: pointer;
-
+.h1Header {
+  text-decoration: none;
+  color: #e1e2dc;
+  font-family: "Roboto Mono", monospace;
+  font-size: 3.5rem;
+  position: relative;
+  top: 2.1rem;
+  right: 1rem;
+  height: 4rem;
 }
 
-.sectionTextBanner{
-    width: 95rem;
-    margin-left: 2rem;
-    position: relative;
-
-}
-
-.h1Banner{
-    color: #000000;
-    font-family: "Montserrat", sans-serif;
-    font-size: 8rem;
-    margin-bottom: 5rem;
-}
-
-.uH2Banner{
-    color: #000000;
-    font-family: "Montserrat", sans-serif;
-    font-size: 4rem;
-    margin-bottom: 1rem;
+.smallHeader{
+  text-decoration: none;
+  color: #e1e2dc;
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.5rem;
+  position: relative;
+  right: 1rem;
 
 }
 
-.h2Banner{
-    color: #000000;
-    font-family: "Montserrat", sans-serif;
-    font-size: 4rem;
-    margin-bottom: 2rem;
+.aOptionHeader {
+  text-decoration: none;
+  color: #e1e2dc;
+  font-size: 2rem;
+  font-family: "Roboto Mono", monospace;
+  margin-right: 5rem;
+  position: relative;
+  top: 5.5rem;
+  left: 20rem;
+  height: 3rem;
+}
+
+.contentHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;/
+}
+
+.h2Header {
+  color: #e1e2dc;
+  text-align: center;
+  font-family: "Caveat", cursive;
+  margin-top: 8rem;
+  font-size: 7rem;
+}
+
+.pHeader {
+  color: #e1e2dc;
+  margin-left: 4rem;
+  margin-top: 8.5rem;
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+  font-size: 3rem;
 
 }
 
-.pBanner{
-    color: #b6b6a6;
-    width: 56rem;
-    font-family: "Ubuntu", sans-serif;
-    font-size: 2rem;
-    margin-top: 2rem;
+.ppHeader{
+  color: #e1e2dc;
+  margin-left: 4rem;
+  margin-top: 2rem;
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.hrHeader {
+  color: #e1e2dc;
+  position: relative;
+  top: 8rem;
+  width: 90rem;
+}
+
+#sectionRobot {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.divImgRobot{
+  width: 44%;
+  height: 60rem;
+  margin-right: 1rem ;
+  margin-left: 1rem;
+  border: 4PX solid #e1e2dc;
+  border-radius: 15px;
+}
+
+.imgRobot{
+  width: 100%;
+  height: 50%;
+  background-image: url(./img/Robot1.avif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 15px 15px 0 0;
+}
+
+.imgRobott{
+  width: 100%;
+  height: 50%;
+  background-image: url(./img/blackRobot.avif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 15px 15px 0 0;
 }
 
 
 
+.textRobot {
+  width: 40%;
+  color: #e1e2dc;
+}
 
-  
+.h2Robot {
+  font-size: 4rem;
+  color: #d4d5cf;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  margin-left: 3rem;
+  font-size: 3rem;
+  font-family: "Roboto Mono", monospace;
+
+}
+
+.pRobot {
+  font-size: 2.2rem;
+  font-family: "Josefin Sans", sans-serif;
+  color: #d4d5cf;
+  margin-left: 3rem;
+}
+
+.aRobot {
+  background-color: #9f8466;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 2rem;
+  text-decoration: none;
+  border: none;
+  border-radius: 9px;
+  padding: 21px 21px;
+  margin-left: 3rem;
+  position: relative;
+  top: 3.5rem;
+}
+
+.sectionBlackRobot{
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+
+}
+
+.blackRobot{
+  background-image: url(./img/blackRobot.avif);
+  background-size: cover;
+  background-position: center;
+  width: 45%;
+  height: 55rem;
+  border-radius: 15px;
+}
