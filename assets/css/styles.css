@@ -8,9 +8,6 @@
 header {
   width: 100%;
   height: 75rem;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 .containerHeader {
@@ -71,7 +68,7 @@ header {
 
 .pHeader {
   color: #e1e2dc;
-  margin-left: 4rem;
+  width: 95%;
   margin-top: 8.5rem;
   font-family: "Josefin Sans", sans-serif;
   text-align: center;
@@ -81,7 +78,6 @@ header {
 
 .ppHeader{
   color: #e1e2dc;
-  margin-left: 4rem;
   margin-top: 2rem;
   font-family: "Josefin Sans", sans-serif;
   text-align: center;
@@ -95,19 +91,70 @@ header {
   width: 90rem;
 }
 
+#orangeBallGeneral{
+  display: flex;
+  justify-content: center;
+}
+
+.imgOrangeBall{
+  background-image: url(./img/orangeBall.avif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 45%;
+  height: 35rem;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  box-shadow: -10px 20px 20px rgba(0, 0, 0, 0.7);
+
+}
+
+.textOrangeBall{
+  background-color: black;
+  width: 45%;
+  height: 35rem;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  box-shadow: -10px 20px 20px rgba(0, 0, 0, 0.7);
+
+}
+
+.h2OrangeBall{
+  background-color: black;
+  font-size: 4rem;
+  color: #d4d5cf;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  font-size: 3rem;
+  font-family: "Roboto Mono", monospace;
+
+}
+
+.pOrangeBall{
+  background-color: black;
+  font-size: 2.2rem;
+  font-family: "Josefin Sans", sans-serif;
+  color: #d4d5cf;
+}
+
+
+
 #sectionRobot {
   display: flex;
   justify-content: center;
-  margin-top: 1.5rem;
+  margin-top: 10rem;
 }
 
 .divImgRobot{
+  background-color: #222222;
   width: 44%;
   height: 60rem;
-  margin-right: 1rem ;
-  margin-left: 1rem;
+  margin-right: 3rem ;
+  margin-left: 3rem;
   border: 4PX solid #e1e2dc;
   border-radius: 15px;
+  box-shadow: -10px 20px 20px rgba(0, 0, 0, 0.7);
+
 }
 
 .imgRobot{
@@ -118,6 +165,7 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 15px 15px 0 0;
+  
 }
 
 .imgRobott{
@@ -129,14 +177,8 @@ header {
   border-radius: 15px 15px 0 0;
 }
 
-
-
-.textRobot {
-  width: 40%;
-  color: #e1e2dc;
-}
-
 .h2Robot {
+  background-color: #222222;
   font-size: 4rem;
   color: #d4d5cf;
   margin-top: 1rem;
@@ -148,6 +190,7 @@ header {
 }
 
 .pRobot {
+  background-color: #222222;
   font-size: 2.2rem;
   font-family: "Josefin Sans", sans-serif;
   color: #d4d5cf;
@@ -166,20 +209,75 @@ header {
   margin-left: 3rem;
   position: relative;
   top: 3.5rem;
+  box-shadow: -10px 20px 20px rgba(0, 0, 0, 0.7);
 }
 
-.sectionBlackRobot{
+#sectionHumans{
   display: flex;
   justify-content: center;
-  margin-top: 2rem;
-
+  align-items: center;
 }
 
-.blackRobot{
-  background-image: url(./img/blackRobot.avif);
-  background-size: cover;
-  background-position: center;
-  width: 45%;
-  height: 55rem;
+.divHumans{
+  background-color: #222222;
+  width: 30%;
+  height: 50rem;
+  border: 4PX solid #e1e2dc;
   border-radius: 15px;
+  margin-top: 10rem;
+  margin-left: 1rem ;
+  margin-right: 1rem;
+  box-shadow: -10px 20px 20px rgba(0, 0, 0, 0.7);
 }
+
+.imgHumansOne{
+  width: 100%;
+  height: 30rem;
+  background-image: url(./img/humansOne.avif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.imgHumansTwo{
+  width: 100%;
+  height: 30rem;
+  background-image: url(./img/humansTwo.avif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.imgHumansThree{
+  width: 100%;
+  height: 30rem;
+  background-image: url(./img/humansThree.avif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+    
+.h2Humans{
+  background-color: #222222;
+  font-size: 2.5rem;
+  color: #d4d5cf;
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+  font-family: "Roboto Mono", monospace;
+}
+
+.pHumans{
+  background-color: #222222;
+  font-size: 2rem;
+  font-family: "Josefin Sans", sans-serif;
+  color: #d4d5cf;
+  margin-left: 1rem;
+  margin-top: 2rem;
+}
+
